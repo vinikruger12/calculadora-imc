@@ -6,7 +6,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #8E7D73;
+    display: flex;
+    justify-content: center; 
+}
+
+.container {
+    width: 500px; 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
 header{
+    background-color: white;
     margin: auto;
     width: 400px;
     height: 450px;
@@ -54,9 +67,11 @@ header a{
 
 main{
     margin: 10px;
+   
 }
 
 section{
+    
     width: 350px;
     height: 120px;
    
@@ -73,6 +88,7 @@ section{
 
 article{
     margin: 10px;
+    
 }
 
 aside{
