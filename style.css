@@ -21,7 +21,7 @@ body {
 header{
     background-color: white;
     margin: auto;
-    width: 465px;
+    width: 450px;
     height: 450px;
     background-image: url(imagens/imagemimc.png);
   
@@ -61,7 +61,7 @@ input#descubra{
     color: white;
     background-color: #009A63;
 
-    padding: 10px;
+    
     border-radius: 20px;
 }
 
