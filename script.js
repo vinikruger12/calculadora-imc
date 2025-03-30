@@ -34,6 +34,7 @@ function calcular(){
     if(sexoH.checked){
   if(calculo <= 18.5){
    h4.textContent = "Abaixo do normal"
+   img.src = "imagens/magroH.webp"
     mensagem.textContent = 'Procure um médico. Algumas pessoas têm um baixo peso por características do seu organismo e tudo bem. Outras podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso.'
     res.style.display = 'block'
     imc.innerHTML = calculo
